@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    background: linear-gradient(to bottom, rgb(96, 77, 108), rgb(44, 44, 61));
+    background-color: aliceblue;
     min-height: 100vh;
     font-family: sans-serif;
     display: flex;
@@ -10,75 +10,161 @@ body {
 
 /* 2. СТИЛІ ДЛЯ ПК (широкий екран) */
 @media screen and (min-width: 769px) {
+#int{
+        display: flex;
+        justify-content: center;
+        height: 7vh;
+        width: 90vw;
+        margin: 10vh;
+        align-items: center;
+
+        
+    }
     #num1{
         display: block;
-        width: 20vw;
-        height: 5vh;
-        margin: 0.5vw;
-        font-size: 3vh;
-        color: blueviolet;
-        color: blueviolet;
-        background-color: dimgrey;
+        background-color: rgb(255, 255, 255);
+        border-radius: 3vw;
+        border: 0.3vh solid rgb(255, 185, 246);
+        font-size: large;
+        width: 70%;
+        height: 100%;
+        text-align: center;
+    }
+    #num1:hover{
+        border: 0.3vh solid rgb(255, 0, 221);
     }
     #valutaInp{
         display: block;
-        width: 20.2vw;
-        height: 3vh;
-        margin: 0.6vw;
-        font-size: 1.7vh;
-        color: blueviolet;
-        background-color: dimgrey;
+        background-color: rgb(227, 193, 231);
+        border-radius: 3vw;
+        border: 0;
+        width: 20%;
+        font-size: large;
+        border: 0.3vh solid rgb(227, 193, 231);
+        height: 100%;
+        margin: 1vw;
     }
-    
-    
+    #valutaInp:hover{
+        border: 0.3vh solid rgb(255, 0, 221);
+    }
+
+
+
+    #res{
+        display: flex;
+        justify-content: center;
+        height: 7vh;
+        width: 90vw;
+        margin: 2vh;
+        align-items: center;
+        margin: 10vh;
+    }
+    #result{
+        background-color: rgb(255, 255, 255);
+        border-radius: 3vw;
+        border: 0.3vh solid rgb(255, 185, 246);
+        width: 70%;
+        font-size: large;
+        height: 100%;
+        line-height: 7vh;
+        margin: 0;
+        text-align: center;
+    }
+    #result:hover{
+        border: 0.3vh solid rgb(255, 0, 221);
+    }
+    #valutaRes{
+        background-color: rgb(227, 193, 231);
+        border-radius: 3vw;
+        border: 0;
+        width: 20%;
+        font-size: large;
+        border: 0.3vh solid rgb(227, 193, 231);
+        height: 100%;
+        margin: 1vw;
+        
+    }
+    #valutaRes:hover{
+        border: 0.3vh solid rgb(255, 0, 221);
+    }
 }
 
 /* 3. СТИЛІ ДЛЯ ТЕЛЕФОНУ (вузький екран) */
 @media screen and (max-width: 768px) {
+
+    #int{
+        display: flex;
+        justify-content: center;
+        height: 7vh;
+        width: 90vw;
+        margin: 2vh;
+        align-items: center;
+        
+    }
     #num1{
         display: block;
-        width: 85vw;
-        height: 5vh;
-        margin: 0.5vw;
-        font-size: 3vh;
-        color: blueviolet;
-        background-color: dimgrey;
-        border-radius: 2vw;
-        margin: 7vw;
-        margin-bottom: 2vh;
+        background-color: rgb(255, 255, 255);
+        border-radius: 3vw;
+        border: 0.3vh solid rgb(255, 185, 246);
+        font-size: large;
+        width: 70%;
+        height: 100%;
+        text-align: center;
+    }
+    #num1:hover{
+        border: 0.3vh solid rgb(255, 0, 221);
     }
     #valutaInp{
         display: block;
-        width: 85vw;
-        height: 3vh;
-        margin: 0.6vw;
-        font-size: 1.7vh;
-        background-color: dimgrey;
-        border-radius: 2vw;
-        margin: 7vw;
-        margin-top: 2vh;
+        background-color: rgb(227, 193, 231);
+        border-radius: 3vw;
+        border: 0;
+        width: 20%;
+        font-size: large;
+        border: 0.3vh solid rgb(227, 193, 231);
+        height: 100%;
+        margin: 1vw;
+    }
+    #valutaInp:hover{
+        border: 0.3vh solid rgb(255, 0, 221);
+    }
+
+
+
+    #res{
+        display: flex;
+        justify-content: center;
+        height: 7vh;
+        width: 90vw;
+        margin: 2vh;
+        align-items: center;
+    }
+    #result{
+        background-color: rgb(255, 255, 255);
+        border-radius: 3vw;
+        border: 0.3vh solid rgb(255, 185, 246);
+        width: 70%;
+        font-size: large;
+        height: 100%;
+        line-height: 7vh;
+        margin: 0;
+        text-align: center;
+    }
+    #result:hover{
+        border: 0.3vh solid rgb(255, 0, 221);
     }
     #valutaRes{
-        display: block;
-        width: 85vw;
-        height: 3vh;
-        margin: 0.6vw;
-        font-size: 1.7vh;
-        background-color: dimgrey;
-        border-radius: 2vw;
-        margin: 7vw;
-        margin-top: 2vh;
+        background-color: rgb(227, 193, 231);
+        border-radius: 3vw;
+        border: 0;
+        width: 20%;
+        font-size: large;
+        border: 0.3vh solid rgb(227, 193, 231);
+        height: 100%;
+        margin: 1vw;
+        
     }
-  
-    #result{
-        display: block;
-        width: 85vw;
-        height: 5vh;
-        margin: 7vw;
-        font-size: 3vh;
-        color: blueviolet;
-        background-color: dimgrey;
-        border-radius: 2vw;
-        margin-bottom: 2vh;
+    #valutaRes:hover{
+        border: 0.3vh solid rgb(255, 0, 221);
     }
 }
