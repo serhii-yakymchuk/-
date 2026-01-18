@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    background: linear-gradient(to bottom, rgb(96, 77, 108), rgb(44, 44, 61));
+    min-height: 100vh;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* 2. СТИЛІ ДЛЯ ПК (широкий екран) */
+@media screen and (min-width: 769px) {
+    #num1{
+        display: block;
+        width: 20vw;
+        height: 5vh;
+        margin: 0.5vw;
+        font-size: 3vh;
+        color: blueviolet;
+        color: blueviolet;
+        background-color: dimgrey;
+    }
+    #valutaInp{
+        display: block;
+        width: 20.2vw;
+        height: 3vh;
+        margin: 0.6vw;
+        font-size: 1.7vh;
+        color: blueviolet;
+        background-color: dimgrey;
+    }
+    
+    
+}
+
+/* 3. СТИЛІ ДЛЯ ТЕЛЕФОНУ (вузький екран) */
+@media screen and (max-width: 768px) {
+    #num1{
+        display: block;
+        width: 85vw;
+        height: 5vh;
+        margin: 0.5vw;
+        font-size: 3vh;
+        color: blueviolet;
+        background-color: dimgrey;
+        border-radius: 2vw;
+        margin: 7vw;
+        margin-bottom: 2vh;
+    }
+    #valutaInp{
+        display: block;
+        width: 85vw;
+        height: 3vh;
+        margin: 0.6vw;
+        font-size: 1.7vh;
+        background-color: dimgrey;
+        border-radius: 2vw;
+        margin: 7vw;
+        margin-top: 2vh;
+    }
+    #valutaRes{
+        display: block;
+        width: 85vw;
+        height: 3vh;
+        margin: 0.6vw;
+        font-size: 1.7vh;
+        background-color: dimgrey;
+        border-radius: 2vw;
+        margin: 7vw;
+        margin-top: 2vh;
+    }
+  
+    #result{
+        display: block;
+        width: 85vw;
+        height: 5vh;
+        margin: 7vw;
+        font-size: 3vh;
+        color: blueviolet;
+        background-color: dimgrey;
+        border-radius: 2vw;
+        margin-bottom: 2vh;
+    }
+}
